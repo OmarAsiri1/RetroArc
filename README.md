@@ -1,55 +1,230 @@
 # 🎮 RetroArc
 
 <p align="center">
-  <strong>The ultimate high-performance, all-in-one emulation frontend ecosystem for iOS. Optimized for native deployment.</strong>
+  <strong>The next-generation gaming platform for iOS. One library. One interface. Endless classics.</strong>
 </p>
 
 <p align="center">
-  <img src="https://shields.io" alt="Status">
+  <img src="https://shields.io" alt="Build Status">
 </p>
 
 ---
 
-> ⚠️ **Notice:** This project is currently **under active development**. Core modules, interface rendering loops, and sub-systems are being built and optimized daily. Stay tuned for the first alpha release!
+> 🚧 **Development Status**
+>
+> RetroArc is currently under active development. Every component, from the rendering engine to the library manager, is being redesigned to deliver a premium console experience built exclusively for iPhone and iPad.
 
 ---
 
-## 🚀 Overview
+# 🚀 Overview
 
-**RetroArc** is a powerful, elegant, and deeply customizable multi-system emulation console built natively for iOS. By unifying a sophisticated layout layer with optimized engine wrappers, RetroArc creates a premium, console-like launcher experience right on your Apple hardware. 
+**RetroArc** is a modern gaming platform designed exclusively for iOS.
 
-Instead of juggling multiple standalone emulator applications, RetroArc consolidates your retro gaming setup into a single, cohesive binary. Designed from the ground up to take full advantage of iOS ProMotion (120Hz) displays and low-latency graphics rendering pipelines.
+Instead of feeling like a collection of separate emulators, RetroArc delivers a unified gaming ecosystem with a beautiful interface, lightning-fast navigation, and deep system integration.
 
----
+Every part of the experience has been designed around Apple's hardware to provide console-quality performance, responsive controls, fluid animations, and effortless game management.
 
-## 🕹️ Massive System Support (All-in-One iOS Frontend)
-
-RetroArc is engineered to act as a robust multi-system engine hub, bringing a huge catalog of classic, retro, and modern handheld or home consoles under one roof. No more handling messy external configurations or jumping between separate apps. Everything runs fluidly inside a single unified project target.
-
-Here is the complete layout of supported core architectures built for the iOS ecosystem:
-
-| Generation / Category | Supported Consoles & Systems | Architecture & Apple Integration |
-| :--- | :--- | :--- |
-| **Sony Handhelds & Home** | 🏎️ PlayStation Portable (PSP) <br> 👾 PlayStation 1 (PS1) | Dynamic Recompilation Handlers & Shared Memory Allocations |
-| **Nintendo Handhelds**| 📱 Nintendo 3DS <br> 📱 Nintendo DS <br> 🕹️ Game Boy Advance (GBA) <br> 🕹️ Game Boy / Color (GBC) | Low-Latency Threading & Multi-Core Rendering Structures |
-| **Classic Home Consoles**| 🎮 Nintendo 64 (N64) <br> 🌪️ Super Nintendo (SNES) <br> 🕹️ NES / Famicom | Fast-Path Floating Point Math & Pure Integer Grid Scaling |
-| **Sega Legacy Systems**| 🌀 Sega Dreamcast <br> 🕹️ Sega Saturn <br> 🕹️ Genesis / Mega Drive / CD | High-Fidelity Geometry Engine Mapping & Sprite Hardware Layers |
-| **Arcade & Classic PC** | 🎰 MAME (Arcade Classics) <br> 🪙 Neo Geo AES/MVS <br> 💻 DOSBox (Classic PC) | Virtual Keyboard Vectors & Custom Coordinate Grid Structs |
-
-> 💡 *All emulation sub-systems are deeply integrated into RetroArc's environment lifecycle, sharing active device hardware resources to maintain a remarkably light footprint while maximizing fluid, full-speed emulation.*
+Whether you're launching a Game Boy classic or a demanding handheld title, RetroArc keeps everything organized inside a single polished application.
 
 ---
 
-## ✨ Key Features
+# 🎮 Supported Systems
 
-* **Unified iOS Console Target:** Built strictly for Apple mobile hardware architectures to ensure flawless compilation and code-signing properties.
-* **Premium Interface Potential:** Designed to map core emulator threads directly onto modern, high-performance UI layers like SwiftUI or UIKit grids.
-* **Metal API Framework Pipelines:** Low-level rendering hooks designed to pass internal frame buffers directly into native Apple graphics environments at full speed.
-* **CoreHaptics Integration:** Native physical controller mapping and vibration replication ready for modern iOS-compatible MFi pads and accessories.
-* **Just-In-Time (JIT) Foundation:** Clean framework pipelines structured to unlock advanced JIT compilation loops for heavier 3D console emulation engines.
+RetroArc is built around a modular architecture capable of supporting multiple gaming systems through native engine integrations.
+
+| Category          | Systems                                                               |
+| ----------------- | --------------------------------------------------------------------- |
+| Sony              | PlayStation Portable (PSP), PlayStation (PS1)                         |
+| Nintendo Handheld | Nintendo 3DS, Nintendo DS, Game Boy Advance, Game Boy Color, Game Boy |
+| Nintendo Console  | Nintendo 64, Super Nintendo, NES/Famicom                              |
+| SEGA              | Dreamcast, Saturn, Genesis, Mega Drive, Sega CD                       |
+| Arcade            | MAME, Neo Geo AES/MVS                                                 |
+| Classic PC        | DOSBox                                                                |
+
+More systems will continue to be added through future platform updates.
 
 ---
 
-## 🛠️ System Architecture
+# ✨ Features
 
-RetroArc seamlessly bridges the gap between high-level Apple application environments and low-level game engine execution loops.
+## ⚡ Native iOS Experience
+
+Built specifically for iPhone and iPad with full support for:
+
+* SwiftUI
+* Metal Rendering
+* CoreHaptics
+* Game Controllers
+* ProMotion (120Hz)
+* Dynamic Island support
+* Stage Manager
+* External Displays
+
+---
+
+## 🎨 Premium Gaming Library
+
+A console-inspired interface designed to make your collection beautiful.
+
+Features include:
+
+* Full-screen artwork
+* Animated backgrounds
+* Video previews
+* Collections
+* Favorites
+* Recently Played
+* Smart Search
+* Game statistics
+* Play time tracking
+* Achievement-ready architecture
+
+---
+
+## ☁️ Cloud Library
+
+Keep everything synchronized across devices.
+
+* Save synchronization
+* Configuration backup
+* Artwork synchronization
+* Metadata synchronization
+
+---
+
+## 🛒 RetroArc Library
+
+A built-in browser for discovering compatible homebrew, public-domain games, game artwork, translations, manuals, and other community resources.
+
+The platform is designed to respect copyright. Commercial games are not distributed by RetroArc. Users are responsible for providing their own legally obtained game files.
+
+---
+
+## 👥 Social Gaming
+
+Gaming is better with friends.
+
+Future releases will include:
+
+* Discord account integration
+* Rich Presence
+* Voice channel shortcuts
+* Friend activity
+* Shared screenshots
+* Multiplayer session invitations
+* Community profiles
+
+Launch a game and your friends instantly know what you're playing without leaving RetroArc.
+
+---
+
+## 🎮 Controller Hub
+
+Supports a wide variety of controllers with customizable layouts.
+
+* Xbox Controllers
+* PlayStation Controllers
+* Nintendo-style Controllers
+* Backbone
+* GameSir
+* 8BitDo
+* Custom Bluetooth Controllers
+
+Create multiple controller profiles and switch between them instantly.
+
+---
+
+## 🧠 Intelligent Game Manager
+
+RetroArc automatically organizes your collection.
+
+* Duplicate detection
+* Artwork downloading
+* Metadata fetching
+* Automatic playlists
+* Region sorting
+* Platform grouping
+* Custom tags
+
+No manual organization required.
+
+---
+
+## 🎥 Beautiful Interface
+
+Designed with attention to every animation.
+
+* Liquid Glass inspired interface
+* Dynamic lighting
+* Smooth transitions
+* Console dashboard layout
+* Ambient background effects
+* High-resolution artwork support
+
+---
+
+## ⚙️ Performance
+
+Engineered for maximum efficiency.
+
+* Metal accelerated rendering
+* Low latency input
+* Background shader compilation
+* Memory optimized asset loading
+* High FPS interface
+* Battery conscious scheduling
+* Fast startup
+
+---
+
+# 🏗 Architecture
+
+RetroArc is built using a modular architecture that separates the user interface, game library, rendering engine, controller layer, and system integrations.
+
+Each subsystem operates independently while communicating through lightweight internal services, making future expansion significantly easier.
+
+---
+
+# 🛣 Roadmap
+
+### Alpha
+
+* Core Interface
+* Library Manager
+* Game Scanner
+* Save Management
+* Controller Support
+
+### Beta
+
+* Cloud Sync
+* Theme Engine
+* Online Metadata
+* Discord Integration
+* Performance Dashboard
+
+### Version 1.0
+
+* Complete gaming platform
+* Social features
+* RetroArc Library
+* Plugin SDK
+* Community themes
+* Advanced customization
+* Multi-device synchronization
+
+---
+
+# ❤️ Philosophy
+
+RetroArc isn't just about launching games.
+
+It's about preserving gaming history while delivering an experience that feels as modern as the hardware it runs on.
+
+Fast.
+
+Elegant.
+
+Beautiful.
+
+Built for iOS.
